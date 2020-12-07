@@ -1,7 +1,21 @@
-pragma solidity ^0.4.0;
+pragma solidity ˆ0.7.4;
+import "./OCOwnerships.sol";
 
-contract OC3PartyProxy {
-    function OC3PartyProxy(){
+contract OConsentProxyRelay is OConsentOwned {
+    address public currVer;
 
+    function OConsentProxyRelay(address initialAddress) public {
+        currVer = initialAddress;
+        currOwner = msg.sender;
+    }
+
+    function updateContract(address newProxyVer) public
+    ownerSole() {
+        currVer = newProxyVer;
+    }
+
+    /// Use this as a fallback
+    function() public {
+        require(currVer.delegatecall(msg.data));
     }
 }

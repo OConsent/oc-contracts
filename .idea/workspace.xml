@@ -2,19 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa39ef5-f4a9-46d8-8c4d-68090451bbb4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contracts/OC3PartyProxy.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/OCDataStorage.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/OCDeprecate.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/OCOwnerships.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/OCRegister.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Solidity Contract" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lJkqkW3a5MNZiZDpaS0WaiNZEU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607322775657</updated>
-      <workItem from="1607322777031" duration="568000" />
+      <workItem from="1607322777031" duration="1415000" />
     </task>
     <servers />
   </component>

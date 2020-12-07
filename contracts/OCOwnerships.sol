@@ -1,5 +1,5 @@
 pragma solidity ˆ0.7.4;
-///OCOwnerships.sol
+///OCOwnerships.sol.sol
 contract OConsentOwned {
     address public ownerCurr;
     event LogTransfer(address indexed
